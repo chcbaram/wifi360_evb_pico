@@ -5,7 +5,7 @@ import serial
 
 
 com_port  = sys.argv[1]
-file_name = "../build/src/ethernet_can_gateway"
+file_name = "../build/src/wifi360_evb_fw"
 
 if len(sys.argv) != 2:
     print("Insufficient arguments")

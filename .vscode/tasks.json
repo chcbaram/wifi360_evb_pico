@@ -17,7 +17,7 @@
 			{
 				"label": "uf2_down",
 				"type": "shell",
-				"command": "python ./tools/down.py COM5",
+				"command": "python ./tools/down.py COM7",
 			}
 		]
 	}

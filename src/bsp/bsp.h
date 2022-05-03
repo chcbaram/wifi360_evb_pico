@@ -19,6 +19,8 @@
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
 
+#include "cmsis_os2.h"
+
 
 bool bspInit(void);
 

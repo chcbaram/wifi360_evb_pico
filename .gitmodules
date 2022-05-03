@@ -1,0 +1,21 @@
+[submodule "external/CMSIS-Driver"]
+	path = external/CMSIS-Driver
+	url = https://github.com/ARM-software/CMSIS-Driver
+[submodule "external/CMSIS-FreeRTOS"]
+	path = external/CMSIS-FreeRTOS
+	url = https://github.com/ARM-software/CMSIS-FreeRTOS
+[submodule "external/CMSIS_5"]
+	path = external/CMSIS_5
+	url = https://github.com/ARM-software/CMSIS_5
+[submodule "external/IoT_Socket"]
+	path = external/IoT_Socket
+	url = https://github.com/MDK-Packs/IoT_Socket
+[submodule "external/mbedtls"]
+	path = external/mbedtls
+	url = https://github.com/Mbed-TLS/mbedtls
+[submodule "external/pico-extras"]
+	path = external/pico-extras
+	url = https://github.com/raspberrypi/pico-extras
+[submodule "external/pico-sdk"]
+	path = external/pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk

@@ -3,15 +3,13 @@
 
 static void cliThread(void *arg);
 
+const osThreadAttr_t cli_attr = { .stack_size = 4096 };
 
 
 void apInit(void) 
-{
-  static osThreadAttr_t cli_attr;
-  
+{  
   cliOpen(_DEF_UART1, 115200);
 
-  cli_attr.stack_size = 4096U;
   osThreadNew(cliThread, NULL, &cli_attr);
 }
 
